@@ -1,0 +1,138 @@
+.navigationMenuCls nav {
+  background-color: #1c1c1c;
+  height: 30px;
+  display: flex;
+  padding: 0px 8px;
+  align-items: center;
+}
+
+.navigationMenuCls nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  width: 100%;
+
+}
+
+.navigationMenuCls nav ul li {
+  margin-right: 16px;
+}
+
+.navigationMenuCls nav ul li:last-child {
+  margin-right: 0px;
+}
+
+.navigationMenuCls nav ul li a,
+.card .card-header,
+button,input,p,h1,.errorCls {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #ffffff;
+  outline: none;
+
+}
+
+.form-control {
+  width: 100%;
+}
+
+.errorCls {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.adjustUpdBtnPos {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+p {
+  color: #1c1c1c;
+  margin: 0px;
+  text-align: center;
+}
+
+
+.navigationMenuCls nav ul li a.active {
+  text-decoration: underline !important;
+}
+
+.card {
+  width: 400px;
+  margin: 40px auto;
+}
+
+.card .card-header {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.card .card-body {
+  padding: 16px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.card .card-body form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+button {
+  width: 130px;
+  margin: auto;
+  border-radius: 100px;
+  border: none;
+  height: 30px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  padding: 0px 8px;
+  color: #1c1c1c;
+  font-weight: normal;
+  border-width: 0.5px;
+  border-color: #8a8a8a;
+  box-sizing: border-box;
+
+}
+
+input::placeholder {
+  color: #8a8a8a;
+}
+
+.mar_top20 {
+  margin-top: 20px
+}
+
+.mar_top4 {
+  margin-top: 4px
+}
+
+.jusContBetween {
+  justify-content: space-between;
+}
+
+.alignItemCenter {
+  align-items: center;
+}
+
+.h_50 {
+  height: 50px;
+}
